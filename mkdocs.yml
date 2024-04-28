@@ -1,0 +1,52 @@
+site_name: marc2k3
+copyright: Copyright &copy; 2024 marc2003
+strict: true
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.sections
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/lightbulb-outline
+        name: "Switch to dark mode"
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/lightbulb
+        name: "Switch to light mode"
+markdown_extensions:
+  - admonition
+  - attr_list
+  - meta
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight
+  - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tilde
+  - toc:
+      permalink: "#"
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/marc2k3
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - Home: index.md
+  - Cover Utils: components/cover-utils.md
+  - Last.fm Playcount Sync: components/lastfm-playcount-sync.md
+  - MusicBrainz64: components/musicbrainz64.md
+  - Playlist Fix: components/playlist-fix.md
+  - Play Track: components/play-track.md
+  - QSearch: components/qsearch.md
+  - Queue Viewer: components/queue-viewer.md
+  - Run Main: components/run-main.md
