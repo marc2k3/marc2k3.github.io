@@ -91,6 +91,9 @@ on format. See the changelog entry for [1.1.2](#112).
 
 ## Changes
 
+### 2.5
+- Fix bug where `ORIGINAL RELEASE DATE` could be written even when the preferences were disabled.
+
 ### 2.4
 - Fix tagger dialog bug where the `Track Artist` could not be previewed/edited before writing. Just to be clear,
 this only appears on various artist releases.
