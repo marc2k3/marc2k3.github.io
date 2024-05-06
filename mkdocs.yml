@@ -42,11 +42,11 @@ extra_css:
   - stylesheets/extra.css
 nav:
   - Home: index.md
-  - Cover Utils: components/cover-utils.md
-  - Last.fm Playcount Sync: components/lastfm-playcount-sync.md
-  - MusicBrainz64: components/musicbrainz64.md
-  - Playlist Fix: components/playlist-fix.md
-  - Play Track: components/play-track.md
-  - QSearch: components/qsearch.md
-  - Queue Viewer: components/queue-viewer.md
-  - Run Main: components/run-main.md
+  - Cover Utils: component/cover-utils.md
+  - Last.fm Playcount Sync: component/lastfm-playcount-sync.md
+  - MusicBrainz64: component/musicbrainz64.md
+  - Playlist Fix: component/playlist-fix.md
+  - Play Track: component/play-track.md
+  - QSearch: component/qsearch.md
+  - Queue Viewer: component/queue-viewer.md
+  - Run Main: component/run-main.md
