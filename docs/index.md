@@ -16,7 +16,7 @@
 |[Queue Viewer](component/queue-viewer.md)|1.0.25|28th March 2024|
 |[Run Main](component/run-main.md)|1.0.4|6th April 2024|
 
-All component require [foobar2000](https://www.foobar2000.org) `2.1+` with the exception
+All components require [foobar2000](https://www.foobar2000.org) `2.1+` with the exception
 of `OptimFROG Decoder` which requires `1.6.0+`.
 
 `Cover Utils` requires `Windows 8.1+`. All others require `Windows 7+`.
