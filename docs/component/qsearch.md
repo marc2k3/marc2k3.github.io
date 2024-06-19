@@ -29,6 +29,9 @@ Open Media Library search window
 
 ## Changes
 
+### 1.0.10
+- Improve handling of searches containing double quotes which was poorly implemented in the previous release!
+
 ### 1.0.9
 - Workaround an issue where metadata containing double quotes could not be found. Instead of using
 `field IS` / `field HAS`, `$stricmp` and `$strstr` are used instead.
