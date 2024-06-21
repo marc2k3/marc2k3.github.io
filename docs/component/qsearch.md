@@ -29,6 +29,9 @@ Open Media Library search window
 
 ## Changes
 
+### 1.0.11
+- Another double quote related bug fix with `HAS`.
+
 ### 1.0.10
 - Improve handling of searches containing double quotes which was poorly implemented in the previous release!
 
