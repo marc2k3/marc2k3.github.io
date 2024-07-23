@@ -63,14 +63,20 @@ up to 100 tracks at a time... just like this.
 
 ![demo](../images/lastfm-demo.gif)
 
+### Available fields
+
 You can configure custom playlist colums or anything else that supports
 title formatting to display the following:
 
-|Field||
-|---|---|
-|`%lfm_playcount%`|
-|`%lfm_first_played%`|`YYYY-MM-DD HH:MM:SS`
-|`%lfm_last_played%`|`YYYY-MM-DD HH:MM:SS`
+||Field||
+||---|---|
+||`%lfm_playcount%`||
+||`%lfm_first_played%`|`YYYY-MM-DD HH:MM:SS`|
+||`%lfm_last_played%`|`YYYY-MM-DD HH:MM:SS`|
+|:octicons-tag-24: 2.1.3|`%lfm_first_played_ts%`|Unix timestamp|
+|:octicons-tag-24: 2.1.3|`%lfm_last_played_ts%`|Unix timestamp|
+|:octicons-tag-24: 2.1.3|`%lfm_now%`|`YYYY-MM-DD HH:MM:SS`|
+|:octicons-tag-24: 2.1.3|`%lfm_now_ts%`|Unix timestamp|
 
 ### Loving / unloving tracks
 You can `Love` or `Unlove` by right clicking a track (or selection up to 20 tracks)
@@ -100,6 +106,9 @@ are reported in the `Console`.
 [Last.fm]: https://last.fm
 
 ## Changes
+
+### 2.1.3
+- Add some new [title format fields](#available-fields).
 
 ### 2.1.2
 - Compiled with latest `foobar2000` `SDK`.
