@@ -77,6 +77,8 @@ title formatting to display the following:
 |:octicons-tag-24: 2.1.3|`%lfm_last_played_ts%`|Unix timestamp|
 |:octicons-tag-24: 2.1.3|`%lfm_now%`|`YYYY-MM-DD HH:MM:SS`|
 |:octicons-tag-24: 2.1.3|`%lfm_now_ts%`|Unix timestamp|
+|:octicons-tag-24: 2.1.3|`%lfm_first_played_ago%`||
+|:octicons-tag-24: 2.1.3|`%lfm_last_played_ago%`||
 
 ### Loving / unloving tracks
 You can `Love` or `Unlove` by right clicking a track (or selection up to 20 tracks)
