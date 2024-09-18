@@ -109,6 +109,9 @@ are reported in the `Console`.
 
 ## Changes
 
+### 2.1.4
+- Add main menu option to import `Last.fm` loved tracks without resetting existing loved tracks first.
+
 ### 2.1.3
 - Add some new [title format fields](#available-fields).
 
