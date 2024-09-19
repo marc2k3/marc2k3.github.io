@@ -105,9 +105,13 @@ Any `Authorisation` errors are reported by popup dialogs. Any errors
 updating playcounts, importing loved tracks or loving/unloving tracks
 are reported in the `Console`.
 
-[Last.fm]: https://last.fm
+
 
 ## Changes
+
+### 2.1.5
+- Loved track import failures are now reported in the `foobar2000` `Console` by artist and
+title. Previously, only a count of the successful imports was logged.
 
 ### 2.1.4
 - Add main menu option to import `Last.fm` loved tracks without resetting existing loved tracks first.
@@ -158,3 +162,5 @@ are reported in the `Console`.
 
 ### 2.0.0
 - Initial release
+
+[Last.fm]: https://last.fm
