@@ -7,7 +7,7 @@
 ||||
 |:---|:---|:---|
 |[Cover Utils](component/cover-utils.md)|1.0|3rd March 2024|
-|[Last.fm Playcount Sync](component/lastfm-playcount-sync.md)|2.1.5|19th September 2024|
+|[Last.fm Playcount Sync](component/lastfm-playcount-sync.md)|2.1.6|20th September 2024|
 |[MusicBrainz64](component/musicbrainz64.md)|2.5|29th April 2024|
 |[OptimFROG Decoder](https://github.com/marc2k3/foo_input_ofr/releases)|1.44|14th March 2024|
 |[Play Track](component/play-track.md)|1.0.5|7th April 2024|

@@ -109,6 +109,11 @@ are reported in the `Console`.
 
 ## Changes
 
+### 2.1.6
+- This  fixes an issue where bulk operations spammed `foobar2000` with
+notifications to update playlists/library viewers after every web request
+which is not good practice. It now happens once when all web requests have completed.
+
 ### 2.1.5
 - Loved track import failures are now reported in the `foobar2000` `Console` by artist and
 title. Previously, only a count of the successful imports was logged.
