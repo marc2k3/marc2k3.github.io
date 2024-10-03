@@ -2,8 +2,6 @@
 	These are no longer completely abandoned. I will fix bugs if they're reported
 	and can be easily reproduced. It's unlikely I'll be adding new features.
 
-	`Playcount 2003` has its own site [here](https://marc2k3.github.io/foo_playcount_2003/).
-
 ||||
 |:---|:---|:---|
 |[Cover Utils](component/cover-utils.md)|1.0|3rd March 2024|
