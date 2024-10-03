@@ -11,6 +11,7 @@
 |[MusicBrainz64](component/musicbrainz64.md)|2.5|29th April 2024|
 |[OptimFROG Decoder](https://github.com/marc2k3/foo_input_ofr/releases)|1.44|14th March 2024|
 |[Play Track](component/play-track.md)|1.0.5|7th April 2024|
+|[Playcount 2003](component/playcount-2003.md)|0.2.1|1st August 2024|
 |[Playlist Fix](component/playlist-fix.md)|1.1.6|28th March 2024|
 |[QSearch](component/qsearch.md)|1.0.11|21st June 2024|
 |[Queue Viewer](component/queue-viewer.md)|1.0.25|28th March 2024|
