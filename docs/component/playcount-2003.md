@@ -1,9 +1,6 @@
 # Playcount 2003
 [Download :material-download:](https://github.com/marc2k3/foo_playcount_2003/releases){ .md-button }
 
-## Requirements
-`foobar2000` `2.1` or later. `32bit` and `64bit` are both supported.
-
 ## Overview
 This component uses the same database backend that `foo_playcount` utilises
 for logging plays but has many more advanced features and fewer limitations.
