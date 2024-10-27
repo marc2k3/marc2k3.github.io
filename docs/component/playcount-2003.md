@@ -24,8 +24,8 @@ This is how database records are bound to your tracks. The default of `%path%|%s
 mean every track will have unique data.
 
 !!! note
-	As of `0.1-Beta.6`, statistics can survive files being moved or copied when using [file operations](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:File_Operations_(foo_fileops)).
-	Cuesheets/other tracks with multiple chapters are not supported. If that is not acceptable,
+	Using the default pattern, statistics can survive files being moved or copied when using [file operations](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:File_Operations_(foo_fileops)) but
+	cuesheets/other tracks with multiple chapters are not supported. If that is not acceptable,
 	you should change it to a pattern that makes use of tags instead. You might consider a pattern like
 
 	```
@@ -184,34 +184,6 @@ The playcount/first played/last played values are extrapolated from the contents
 via the context menu is not supported.
 
 `%2003_playcount_this_year%` / `%2003_playcount_last_year%` aggregate plays for the given years.
-
-### Working with JScript Panel 3
-!!! note
-	With minor adjustments, this could work with any scripting component. They all provide
-	the same functionality.
-
-Since first played/last played/playcounts are not editable in `Advanced` mode, you can generate your own
-`JSON` files to import. Using the exact same title format pattern from the `Advanced` preferences, you
-can generate an `id` for each entry like this:
-
-```js
-var items = plman.GetPlaylistItems(plman.ActivePlaylist);
-var tfo_id = fb.TitleFormat("%path%|%subsong%");
-var arr = [];
-
-for (var i = 0; i < items.Count; i++) {
-	var item = items.GetItem(i);
-	var obj = {
-		"id" = tfo_id.EvalWithMetadb(item),
-		// empty array on purpose, scripters should know what to do!
-		// must be Unix timestamps (seconds, not milliseconds)
-		"2003_timestamps" : [],
-	};
-	arr.push(obj);
-}
-var str = JSON.stringify(arr);
-// save to file
-```
 
 ## Changes
 
