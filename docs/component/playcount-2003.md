@@ -1,5 +1,5 @@
 # Playcount 2003
-[Download :material-download:](https://github.com/marc2k3/foo_playcount_2003/releases){ .md-button }
+[Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button }
 
 ## Overview
 This component uses the same database backend that `foo_playcount` utilises
