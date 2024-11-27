@@ -29,15 +29,19 @@ The report may look something like [this](../images/playlist-fix.png).
 
 ## Changes
 
+### 1.2.0
+- Bump minimum requirements to `foobar2000` `2.24` and `Windows 10`.
+- Compiled with the latest `foobar2000` `SDK`.
+
 ### 1.1.6
-- Compiled with latest `foobar2000` `SDK`.
 - The minimum requirement is now `foobar2000` `2.1`.
+- Compiled with the latest `foobar2000` `SDK`.
 
 ### 1.1.5
 - Internal changes only.
 
 ### 1.1.4
-- Compiled with latest `foobar2000` `SDK`.
+- Compiled with the latest `foobar2000` `SDK`.
 
 ### 1.1.3
 - The report dialog has been updated so both path columns are auto-sizing. Also, the paths are no longer prefixed with `file://`.

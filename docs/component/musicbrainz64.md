@@ -91,6 +91,10 @@ on format. See the changelog entry for [1.1.2](#112).
 
 ## Changes
 
+### 2.6.0
+- Bump minimum requirements to `foobar2000` `2.24` and `Windows 10`.
+- Compiled with the latest `foobar2000` `SDK`.
+
 ### 2.5
 - Fix bug where `ORIGINAL RELEASE DATE` could be written even when the preferences were disabled.
 

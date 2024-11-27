@@ -29,6 +29,10 @@ Open Media Library search window
 
 ## Changes
 
+### 1.1.0
+- Bump minimum requirements to `foobar2000` `2.24` and `Windows 10`.
+- Compiled with the latest `foobar2000` `SDK`.
+
 ### 1.0.11
 - Another double quote related bug fix with `HAS`.
 
@@ -40,5 +44,5 @@ Open Media Library search window
 `field IS` / `field HAS`, `$stricmp` and `$strstr` are used instead.
 
 ### 1.0.8
-- Compiled with latest `foobar2000` `SDK`.
 - The minimum requirement is now `foobar2000` `2.1`.
+- Compiled with latest `foobar2000` `SDK`.

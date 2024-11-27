@@ -24,6 +24,10 @@ under different sub menus, you must supply the full path to the command.
 
 ## Changes
 
+### 1.1.0
+- Bump minimum requirements to `foobar2000` `2.24` and `Windows 10`.
+- Compiled with the latest `foobar2000` `SDK`.
+
 ### 1.0.4
-- Compiled with latest `foobar2000` `SDK`.
 - The minimum requirement is now `foobar2000` `2.1`.
+- Compiled with the latest `foobar2000` `SDK`.

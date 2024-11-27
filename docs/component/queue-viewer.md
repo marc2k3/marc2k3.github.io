@@ -43,9 +43,13 @@ The `Send` commands flush exisiting queue items first.
 
 ## Changes
 
+### 1.1.0
+- Bump minimum requirements to `foobar2000` `2.24` and `Windows 10`.
+- Compiled with the latest `foobar2000` `SDK`.
+
 ### 1.0.26
-- Compiled with latest `foobar2000` `SDK`.
 - The minimum requirement is now `foobar2000` `2.1`.
+- Compiled with the latest `foobar2000` `SDK`.
 
 ### 1.0.25
 - Fix bug where `foobar2000` keyboard shortcuts were suppressed if this panel had focus. This affected `Columns UI` only.

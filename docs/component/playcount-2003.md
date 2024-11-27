@@ -187,6 +187,10 @@ via the context menu is not supported.
 
 ## Changes
 
+### 0.3.0
+- Bump minimum requirements to `foobar2000` `2.24` and `Windows 10`.
+- Compiled with the latest `foobar2000` `SDK`.
+
 ### 0.2.1
 - Rewrite how plays are logged in `default` mode.
 

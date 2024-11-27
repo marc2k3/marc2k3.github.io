@@ -109,6 +109,10 @@ are reported in the `Console`.
 
 ## Changes
 
+### 2.2.0
+- Bump minimum requirements to `foobar2000` `2.24` and `Windows 10`.
+- Compiled with the latest `foobar2000` `SDK`.
+
 ### 2.1.6
 - This  fixes an issue where bulk operations spammed `foobar2000` with
 notifications to update playlists/library viewers after every web request
@@ -125,8 +129,8 @@ title. Previously, only a count of the successful imports was logged.
 - Add some new [title format fields](#available-fields).
 
 ### 2.1.2
-- Compiled with latest `foobar2000` `SDK`.
 - The minimum requirement is now `foobar2000` `2.1`.
+- Compiled with the latest `foobar2000` `SDK`.
 
 ### 2.1.1
 - Minor fixes.
@@ -144,10 +148,10 @@ title. Previously, only a count of the successful imports was logged.
 - `2.0.9` was updated to use code from the latest `foobar2000` `SDK` but the loved track import would crash on `foobar2000` `2.0 Beta 17` and earlier. The change has been reverted so it works on any version.
 
 ### 2.0.9
-- Compiled with latest `foobar2000` `SDK`.
+- Compiled with the latest `foobar2000` `SDK`.
 
 ### 2.0.8
-- Compiled with latest `foobar2000` `SDK`.
+- Compiled with the latest `foobar2000` `SDK`.
 - Import / export improvements.
 
 ### 2.0.7
