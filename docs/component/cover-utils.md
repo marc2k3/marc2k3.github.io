@@ -1,9 +1,6 @@
 # Cover Utils
 [Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button }
 
-!!! note
-	This component requires at least `Windows 8.1+` and `foobar2000` `2.1+`.
-
 !!! important
 	This is a combined replacement for `foo_cover_info` and
 	`foo_cover_resizer`. If you have either/both installed,
