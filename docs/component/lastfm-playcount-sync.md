@@ -4,16 +4,12 @@
 ## Overview
 This component fetches [Last.fm][] playcounts and first played/last played dates
 as you listen. A database is used to store the data so your files are not
-touched. This does not scrobble so you'll need another component for
-that. It's recommended that you use [foo_scrobble](https://github.com/gix/foo_scrobble).
+touched.
 
-Additionally, you can also love/unlove tracks.
+This does not scrobble so you'll need another component for that. It's
+recommended that you use [foo_scrobble](https://github.com/gix/foo_scrobble).
 
-!!! note
-	Although this shares the same name with a previously released version for
-	[foobar2000](https://www.foobar2000.org) `1.4+`, previous settings/data will
-	not be preserved if upgrading. Also there is no support for artist title
-	formatting.
+Additionally, you can also love/unlove tracks. This requires [authorisation](#authorisation).
 
 !!! note
 	All lookups / storage are based on `$lower($meta(artist,0) - %title%)` with
