@@ -91,8 +91,12 @@ on format. See the changelog entry for [1.1.2](#112).
 
 ## Changes
 
+### 2.8
+- Fix `PERFORMER` bug where `guest`/`additional` attributes may have been written without specifying
+`vocal` or an instrument. Apologies for any inconvenience this may have caused.
+
 ### 2.7
-- Fix multi-value sorting bug affecting `composer`/`writer`/`performer`.
+- Fix multi-value sorting bug affecting `COMPOSER`/`WRITER`/`PERFORMER`.
 
 ### 2.6
 - Bump minimum requirements to `foobar2000` `2.24` and `Windows 10`.
