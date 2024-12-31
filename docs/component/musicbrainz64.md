@@ -91,7 +91,7 @@ on format. See the changelog entry for [1.1.2](#112).
 
 ## Changes
 
-## 2.7
+### 2.7
 - Fix multi-value sorting bug affecting `composer`/`writer`/`performer`.
 
 ### 2.6
