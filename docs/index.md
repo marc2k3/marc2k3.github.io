@@ -11,5 +11,5 @@
 |[Playlist Fix](component/playlist-fix.md)|1.2.0|27th November 2024|
 |[Play Track](component/play-track.md)|1.1.0|27th November 2024|
 |[QSearch](component/qsearch.md)|1.1.0|27th November 2024|
-|[Queue Viewer](component/queue-viewer.md)|1.1.0|27th November 2024|
+|[Queue Viewer](component/queue-viewer.md)|1.2|18th January 2025|
 |[Run Main](component/run-main.md)|1.1.0|27th November 2024|

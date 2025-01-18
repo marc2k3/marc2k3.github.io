@@ -43,7 +43,10 @@ The `Send` commands flush exisiting queue items first.
 
 ## Changes
 
-### 1.1.0
+### 1.2
+- Fix various bugs including queue items not responding to underlying file tags being edited.
+
+### 1.1
 - Bump minimum requirements to `foobar2000` `2.24` and `Windows 10`.
 - Compiled with the latest `foobar2000` `SDK`.
 
