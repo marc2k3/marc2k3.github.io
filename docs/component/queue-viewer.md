@@ -43,6 +43,10 @@ The `Send` commands flush exisiting queue items first.
 
 ## Changes
 
+### 1.3
+- Fix dark mode toggle glitch.
+- Update to latest `Columns UI` `SDK`.
+
 ### 1.2
 - Fix various bugs including queue items not responding to underlying file tags being edited.
 
