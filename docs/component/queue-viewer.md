@@ -74,7 +74,7 @@ The `Send` commands flush exisiting queue items first.
 only shows options relevant for the selection.
 
 ### 1.0.19
-- Hopefully fix column header redraw glitch when toggling between dark and light modes in `Default UI`.
+- ~~Hopefully fix column header redraw glitch when toggling between dark and light modes in `Default UI`.~~
 
 ### 1.0.18
 - ~~Add random / reverse sort options to the viewer instance right click menu. They always apply
