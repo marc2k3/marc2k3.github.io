@@ -7,6 +7,8 @@ for logging plays but has many more advanced features and fewer limitations.
 
 - Playcounts and dates can edited for any context menu selection.
 - Data can be imported from file tags or fields provided by other components.
+- Ratings up to 10 are supported.
+- You can customise how long you have to listen before a play count is incremented.
 - The current time is available via title formatting as a full date time string or Unix timestamp.
 - First played, last played and added are all available as Unix timestamps.
 - How records are bound to tracks can be configured in the `Advanced Preferences`.
