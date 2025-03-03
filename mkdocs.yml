@@ -41,7 +41,7 @@ extra:
 extra_css:
   - stylesheets/extra.css
 nav:
-  - Home: index.md
+  - foobar2000 components: index.md
   - Cover Utils: component/cover-utils.md
   - Last.fm Playcount Sync: component/lastfm-playcount-sync.md
   - MusicBrainz64: component/musicbrainz64.md
