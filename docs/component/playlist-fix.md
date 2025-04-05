@@ -29,7 +29,12 @@ The report may look something like [this](../images/playlist-fix.png).
 
 ## Changes
 
-### 1.2.0
+### 1.3
+- Preemptively fix compatibility with the next `foobar2000` release. Note that
+all previous versions of this component will be completely broken by it and
+will report no dead playlist items even when there are.
+
+### 1.2
 - Bump minimum requirements to `foobar2000` `2.24` and `Windows 10`.
 - Compiled with the latest `foobar2000` `SDK`.
 
