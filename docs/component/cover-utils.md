@@ -89,6 +89,9 @@ This clears all existing info for the current selection.
 
 ## Changes
 
+### 1.2
+- Fix compatibility with future versions of `foobar2000`.
+
 ### 1.1
 - Bump minimum requirements to `foobar2000` `2.24` and `Windows 10`.
 - Compiled with the latest `foobar2000` `SDK`.
