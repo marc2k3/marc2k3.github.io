@@ -82,7 +82,10 @@ The following differences affect `ID3` tagging only:
 - `RELEASECOUNTRY` is written to `TXXX:RELEASECOUNTRY` rather than `TXXX:MUSICBRAINZ ALBUM RELEASE COUNTRY`
 - `PERFORMER` is written to `TXXX:PERFORMER` rather than `TMCL` / `IPLS`
 
-The whole purpose of this is to unify tag display/search across `foobar2000` regardless of file format.
+The reasoning for this is twofold:
+
+- `foobar2000` has never been able to read or write certain frames like `UFID` / `TMCL` / `IPLS`.
+- And for frames that are recognised, it unifies tag display/search regardless of file format.
 It's easier to search for `%LABEL% IS blah` rather than `%LABEL% IS blah OR %PUBLISHER% IS blah` which
 is what you'd have to do if this was `Picard` compatible.
 
