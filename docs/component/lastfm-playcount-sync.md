@@ -101,11 +101,12 @@ Any `Authorisation` errors are reported by popup dialogs. Any errors
 updating playcounts, importing loved tracks or loving/unloving tracks
 are reported in the `Console`.
 
-
-
 ## Changes
 
-### 2.2.0
+### 2.3
+- Internal improvements
+
+### 2.2
 - Bump minimum requirements to `foobar2000` `2.24` and `Windows 10`.
 - Compiled with the latest `foobar2000` `SDK`.
 
