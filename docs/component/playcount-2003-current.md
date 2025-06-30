@@ -5,7 +5,7 @@
 
 	Updating from older versions in `Simple` mode is fine and existing data will be preserved.
 
-[Download :material-download:](../files/foo_playcount_2003-1.1.fb2k-component){ .md-button }
+[Download :material-download:](../files/foo_playcount_2003-1.2.fb2k-component){ .md-button }
 
 ## Overview
 This component uses the same database backend that `foo_playcount` utilises
@@ -168,6 +168,9 @@ fine. Exported files are always without `BOM`.
 Database records are remembered for 4 weeks when not monitored as part of the `Media Library` or any loaded playlist. This behaviour is the same as `foo_playcount`.
 
 ## Changes
+
+### 1.2
+- Bug fixes.
 
 ### 1.1
 - Minor bug fixes.
