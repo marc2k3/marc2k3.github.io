@@ -94,6 +94,9 @@ on format. See the changelog entry for [1.1.2](#112).
 
 ## Changes
 
+### 2.9
+- Minor bug fixes.
+
 ### 2.8
 - Fix `PERFORMER` bug where `guest`/`additional` attributes may have been written without specifying
 `vocal` or an instrument. Apologies for any inconvenience this may have caused.
