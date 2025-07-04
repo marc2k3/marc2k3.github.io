@@ -103,6 +103,9 @@ are reported in the `Console`.
 
 ## Changes
 
+### 2.4
+- Minor bug fixes.
+
 ### 2.3
 - Internal improvements
 
