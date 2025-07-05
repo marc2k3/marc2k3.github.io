@@ -43,6 +43,10 @@ The `Send` commands flush exisiting queue items first.
 
 ## Changes
 
+### 1.4
+- Minor bug fixes.
+- Update to latest `foobar2000` and `Columns UI` `SDK`.
+
 ### 1.3
 - Fix dark mode toggle glitch.
 - Update to latest `Columns UI` `SDK`.
