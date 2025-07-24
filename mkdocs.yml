@@ -43,7 +43,6 @@ extra_css:
 nav:
   - foobar2000 components: index.md
   - Cover Utils: component/cover-utils.md
-  - Last.fm Playcount Sync: component/lastfm-playcount-sync.md
   - MusicBrainz64: component/musicbrainz64.md
   - Playcount 2003 - Legacy: component/playcount-2003.md
   - Playcount 2003 - Current: component/playcount-2003-current.md

@@ -5,7 +5,6 @@
 ||||
 |:---|:---|:---|
 |[Cover Utils](component/cover-utils.md)|1.2|5th April 2025|
-|[Last.fm Playcount Sync](component/lastfm-playcount-sync.md)|2.4|4th July 2025|
 |[MusicBrainz64](component/musicbrainz64.md)|2.9|4th July 2025|
 |[Playcount 2003 - Legacy](component/playcount-2003.md)|0.3.0|27th November 2024|
 |[Playcount 2003 - Current](component/playcount-2003-current.md)|1.2|30th June 2025|
