@@ -1,11 +1,12 @@
-# Playcount 2003 (current)
+# Playcount 2003 (legacy)
 !!! note
-	If you're using `0.3.0` or earlier with `Advanced` mode enabled, you must not update to
-	this version as it will cause data loss.
+	This version with `Advanced` mode is no longer supported and is provided as-is.
+	If you're using `Advanced` mode, you must stick to this version.
 
-	Updating from older versions in `Simple` mode is fine and existing data will be preserved.
+	If using an older version with `Simple` mode enabled, you may update to the current version
+	which will preserve existing data.
 
-[Download :material-download:](../files/foo_playcount_2003-1.2.fb2k-component){ .md-button }
+[Download :material-download:](../files/foo_playcount_2003-0.3.0.fb2k-component){ .md-button }
 
 ## Overview
 This component uses the same database backend that `foo_playcount` utilises
@@ -22,11 +23,11 @@ for logging plays but has many more advanced features and fewer limitations.
 ## Advanced Preferences
 The first thing you'll want to do after installing this is check `File>Preferences>Advanced>Tools>Playcount 2003`.
 
-![playcount preferences](../images/playcount-2003-preferences-current.png)
+![playcount preferences](../images/playcount-2003-preferences.png)
 
 !!! note
-	It's important that the title format pattern is decided on before starting as any change causes immediate data loss.
-	`foobar2000` will prompt you to restart when changing that setting.
+	It's important that the title format pattern and `Simple` or `Advanced` mode are decided on before starting as any change causes immediate data loss.
+	`foobar2000` will prompt you to restart when changing any setting.
 
 ### Title format pattern
 This is how database records are bound to your tracks. The default of `%path%|%subsong%` does
@@ -42,6 +43,9 @@ mean every track will have unique data.
 	```
 
 ### Log track as played
+!!! note
+	This is only available in component version `0.2` and later. These settings can be changed at anytime.
+
 The default is to use the same rules as `foo_playcount`. This means you have to listen to at least 1 minute for it to count. If the track is shorter than one minute, you have to listen to all of it.
 
 Now you can customise the time in seconds by entering a number or making it dynamic by using title formatting. If the title format pattern does not evaluate to a number, the track won't be logged.
@@ -150,7 +154,7 @@ The component will not check if selection items belong to the library when writi
 	internally, zero is reserved for indicating not set. The latest value is some time in the year 2106
 	because 32bit unsigned integers are used for storage.
 
-## Editing
+## Simple mode
 The main `Edit` dialog found under the context menu > `Playcount 2003>Edit` now supports `Presets` and
 you can import data from `foo_playcount` or `foo_lastfm_playcount_sync` as illustrated here:
 
@@ -158,6 +162,21 @@ you can import data from `foo_playcount` or `foo_lastfm_playcount_sync` as illus
 
 In addition to `Presets`, you can fill in values manually or use title formatting to import data from tags/other
 components.
+
+## Advanced mode
+```markdown title="Advanced mode exclusive fields"
+%2003_timestamps%
+%2003_playcount_this_year%
+%2003_playcount_last_year%
+```
+
+`%2003_timestamps%` is a stringified array of timestamps and this tracks every single play as you listen. This functionality
+originated in `foo_enhanced_playcount`. `JavaScript` component users can use `JSON.parse` to manipulate it.
+
+The playcount/first played/last played values are extrapolated from the contents of this array so editing
+via the context menu is not supported.
+
+`%2003_playcount_this_year%` / `%2003_playcount_last_year%` aggregate plays for the given years.
 
 ## Data import / export
 You can import/export data either via the main menu > `Library>Playcount 2003` or use the context menu
@@ -168,16 +187,6 @@ fine. Exported files are always without `BOM`.
 Database records are remembered for 4 weeks when not monitored as part of the `Media Library` or any loaded playlist. This behaviour is the same as `foo_playcount`.
 
 ## Changes
-
-### 1.2
-- Bug fixes.
-
-### 1.1
-- Minor bug fixes.
-
-### 1.0
-- Remove `Advanced` mode. The previous version with this is still available for download [here](playcount-2003.md).
-- Add menu items to increment/decrement ratings for the current selection.
 
 ### 0.3.0
 - Bump minimum requirements to `foobar2000` `2.24` and `Windows 10`.
