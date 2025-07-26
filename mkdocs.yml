@@ -42,12 +42,15 @@ extra_css:
   - stylesheets/extra.css
 nav:
   - foobar2000 components: index.md
-  - Cover Utils: component/cover-utils.md
-  - MusicBrainz64: component/musicbrainz64.md
-  - Playcount 2003 - Legacy: component/playcount-2003.md
-  - Playcount 2003 - Current: component/playcount-2003-current.md
-  - Playlist Fix: component/playlist-fix.md
-  - Play Track: component/play-track.md
-  - QSearch: component/qsearch.md
-  - Queue Viewer: component/queue-viewer.md
-  - Run Main: component/run-main.md
+  - Active:
+    - Cover Utils: component/cover-utils.md
+    - MusicBrainz64: component/musicbrainz64.md
+    - Playcount 2003 - Current: component/playcount-2003-current.md
+    - Playlist Fix: component/playlist-fix.md
+    - Queue Viewer: component/queue-viewer.md
+  - Abandoned:
+    - Last.fm Playcount Sync: component/lastfm-playcount-sync.md
+    - Playcount 2003 - Legacy: component/playcount-2003.md
+    - Play Track: component/play-track.md
+    - QSearch: component/qsearch.md
+    - Run Main: component/run-main.md

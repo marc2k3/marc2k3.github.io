@@ -1,5 +1,5 @@
 # Play Track
-[Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button }
+[Download :material-download:](../files/foo_play_track-1.1.0.fb2k-component){ .md-button }
 
 ## Usage
 This adds a `Play Track` submenu to the main `Playback` menu.
