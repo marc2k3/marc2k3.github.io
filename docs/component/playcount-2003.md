@@ -176,5 +176,5 @@ Database records are remembered for 4 weeks when not monitored as part of the `M
 - Minor bug fixes.
 
 ### 1.0
-- Remove `Advanced` mode. The previous version with this is still available for download [here](playcount-2003.md).
+- Remove `Advanced` mode. The previous version with this is still available for download [here](playcount-2003-legacy.md).
 - Add menu items to increment/decrement ratings for the current selection.
