@@ -43,6 +43,10 @@ The `Send` commands flush exisiting queue items first.
 
 ## Changes
 
+### 1.5
+- Holding ++shift++ when choosing any `Queue Viewer` context menu item randomises
+the selection before queuing.
+
 ### 1.4
 - Minor bug fixes.
 - Update to latest `foobar2000` and `Columns UI` `SDK`.
