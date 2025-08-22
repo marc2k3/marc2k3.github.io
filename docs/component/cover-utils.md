@@ -89,6 +89,10 @@ This clears all existing info for the current selection.
 
 ## Changes
 
+### 1.3
+- Update `WebP` encoder to latest version.
+- Other internal improvements.
+
 ### 1.2
 - Fix compatibility with future versions of `foobar2000`.
 
