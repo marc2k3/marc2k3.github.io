@@ -29,6 +29,9 @@ The report may look something like [this](../images/playlist-fix.png).
 
 ## Changes
 
+### 1.4
+- Minor internal improvements.
+
 ### 1.3
 - Preemptively fix compatibility with the next `foobar2000` release. Previous
 versions may no longer work at all so updating is strongly recommended.
