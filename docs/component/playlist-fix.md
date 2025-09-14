@@ -29,6 +29,9 @@ The report may look something like [this](../images/playlist-fix.png).
 
 ## Changes
 
+### 1.5
+- Maybe fix long path issue.
+
 ### 1.4
 - Minor internal improvements.
 
