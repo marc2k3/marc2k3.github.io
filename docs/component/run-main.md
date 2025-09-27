@@ -1,4 +1,8 @@
 # Run Main
+!!! important
+	This component requires `foobar2000` `2.24` and `Windows 10`
+	or later. 32bit and 64bit are both supported.
+
 [Download :material-download:](../files/foo_run_main-1.1.0.fb2k-component){ .md-button }
 
 ## Overview

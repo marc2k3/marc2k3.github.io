@@ -1,7 +1,3 @@
-!!! important
-	As of 27th November 2024, these components require `foobar2000` `2.24` and `Windows 10`
-	or later. 32bit and 64bit are both supported.
-
 |Active|||
 |:---|:---|:---|
 |[Cover Utils](component/cover-utils.md)|1.3|22nd August 2025|
