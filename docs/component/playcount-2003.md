@@ -1,13 +1,13 @@
 # Playcount 2003
-!!! note
+!!! important
 	If you're using `0.3.0` or earlier with `Advanced` mode enabled, you must not update to
 	this version as it will cause data loss.
 
 	Updating from older versions in `Simple` mode is fine and existing data will be preserved.
 
-!!! important
-	This component requires `foobar2000` `2.24` and `Windows 10`
-	or later. 32bit and 64bit are both supported.
+## Requirements
+- `foobar2000` `2.24` or later. 32bit and 64bit are both supported.
+- `Windows 10` or later
 
 [Download :material-download:](../files/foo_playcount_2003-1.4.fb2k-component){ .md-button }
 

@@ -1,9 +1,4 @@
 # Cover Utils
-!!! important
-	This component requires `foobar2000` `2.24` and `Windows 10`
-	or later. 32bit and 64bit are both supported.
-
-[Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button }
 
 !!! important
 	This is a combined replacement for `foo_cover_info` and
@@ -13,6 +8,12 @@
 	Note that this uses a separate database for front cover info
 	storage so files would need scanning again. Also, different title
 	format fields are used for display. See below.
+
+## Requirements
+- `foobar2000` `2.24` or later. 32bit and 64bit are both supported.
+- `Windows 10` or later
+
+[Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button }
 
 ## Usage
 Use the right click menu on any playlist/library selection and you'll find

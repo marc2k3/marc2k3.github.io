@@ -1,14 +1,15 @@
 # MusicBrainz64
-!!! important
-	This component requires `foobar2000` `2.24` and `Windows 10`
-	or later. 32bit and 64bit are both supported.
+
+## Requirements
+- `foobar2000` `2.24` or later. 32bit and 64bit are both supported.
+- `Windows 10` or later
 
 [Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button }
 
 !!! note
 	As of version `2.1`, `32bit` is supported but the name is not changing.
 
-### Tag Mapping
+## Tag Mapping
 Before you consider using this to tag your files, it's important to note that it does
 not strictly adhere to the `Picard` tag mappings as documented [here](https://picard-docs.musicbrainz.org/en/appendices/tag_mapping.html).
 
@@ -16,12 +17,12 @@ If compatibility with `MusicBrainz Picard` or other taggers/players that make us
 more important then you should probably avoid using this. More details of what this component
 does and why can be found [below](#the-nerdy-stuff).
 
-### Preferences
+## Preferences
 These can be found under `File>Preferences>Tools>MusicBrainz`.
 
 ![musicbrainz preferences](../images/musicbrainz-preferences.png)
 
-### Usage
+## Usage
 This is very much a `dumb` tagger. You can only tag complete `releases` (or release
 [mediums](https://musicbrainz.org/doc/Medium)) and all tracks must be in the same
 order as they appear on [MusicBrainz](https://musicbrainz.org).
@@ -65,12 +66,12 @@ but you can edit all other text fields and the `Title` column in the track list.
 In the `Disc Subtitle` column, you can only edit the entry for track 1 of each disc. Edits
 will be applied to all tracks from the same disc when tagging.
 
-### TOC submissions
+## TOC submissions
 You should only use the `Add TOC to MusicBrainz` option if you are a [MusicBrainz](https://musicbrainz.org)
 editor and the selection is an actual `CD` in an optical drive. Submitted `discids` must be calculated
 from sources that take `pregap` information in to account. This simply is not present in ripped files.
 
-### The Nerdy Stuff
+## The Nerdy Stuff
 When it comes to tagging `MBID`s, this component always follows the naming conventions used for `Vorbis`
 comments regardless of the underlying file format/tagging sheme.
 
