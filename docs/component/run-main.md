@@ -7,11 +7,13 @@
 [Download :material-download:](../files/foo_run_main-1.1.0.fb2k-component){ .md-button }
 
 ## Overview
-This component is for executing main menu commands via the command line. While
-`foobar2000` itself has a command line handler built in, it is less useful because:
+This component is for executing main menu commands via the command line.
 
--it does not support dyanmically generated menu commands
--it cannot disambiguate between menu item names that might appear more
+While `foobar2000` itself has a command line handler built in, it is less useful
+because:
+
+- it does not support dyanmically generated menu commands
+- it cannot disambiguate between menu item names that might appear more
 than once under different sub-menus.
 
 This component address both of those issues meaning you can use it to
