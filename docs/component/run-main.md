@@ -7,16 +7,20 @@
 [Download :material-download:](../files/foo_run_main-1.1.0.fb2k-component){ .md-button }
 
 ## Overview
-Unlike the built in command line handler/`foo_runcmd`, this component has
-full support for dynamically generated menu commands meaning you can
-use `Edit` commands and switch playlists, change output devices etc.
+This component is for executing main menu commands via the command line. While
+`foobar2000` itself has a command line handler built in, it is less useful because:
+
+-it does not support dyanmically generated menu commands
+-it cannot disambiguate between menu item names that might appear more
+than once under different sub-menus.
+
+This component address both of those issues meaning you can use it to
+switch playlists or audio devices:
 
 ![run main](../images/run-main.gif)
 
 ## Usage
-
-To avoid ambiguity with common names that might appear more than once
-under different sub menus, you must supply the full path to the command.
+To avoid the ambiguity issue mentioned above, you must supply the full path to the command.
 
 !!! example
 	```
