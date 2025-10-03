@@ -6,9 +6,6 @@
 
 [Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button }
 
-!!! note
-	As of version `2.1`, `32bit` is supported but the name is not changing.
-
 ## Tag Mapping
 Before you consider using this to tag your files, it's important to note that it does
 not strictly adhere to the `Picard` tag mappings as documented [here](https://picard-docs.musicbrainz.org/en/appendices/tag_mapping.html).
