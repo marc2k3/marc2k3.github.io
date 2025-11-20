@@ -24,6 +24,7 @@ nav = [
 palette.accent = "indigo"
 palette.primary = "indigo"
 features = [
+	"content.code.copy",
 	"navigation.expand"
 ]
 
