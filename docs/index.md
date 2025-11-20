@@ -11,7 +11,7 @@
 |Abandoned|||
 |:---|:---|:---|
 |[Last.fm Playcount Sync](component/lastfm-playcount-sync.md)|2.4|4th July 2025|
-|[Playcount 2003 - Legacy](component/playcount-2003-legacy.md)|0.3.0|27th November 2024|
+|[Playcount 2003 (legacy)](component/playcount-2003-legacy.md)|0.3.0|27th November 2024|
 |[Play Track](component/play-track.md)|1.1.0|27th November 2024|
 |[QSearch](component/qsearch.md)|1.1.0|27th November 2024|
 |[Run Main](component/run-main.md)|1.1.0|27th November 2024|
