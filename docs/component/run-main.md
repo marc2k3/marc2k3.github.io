@@ -4,7 +4,7 @@
 - `foobar2000` `2.24` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later
 
-[Download :material-download:](../files/foo_run_main-1.1.0.fb2k-component){ .md-button }
+[Download :material-download:](../files/foo_run_main-1.1.0.fb2k-component){ .md-button .md-button--primary }
 
 ## Overview
 This component is for executing main menu commands via the command line.

@@ -4,7 +4,7 @@
 - `foobar2000` `2.24` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later
 
-[Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button }
+[Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button .md-button--primary }
 
 ## Tag Mapping
 Before you consider using this to tag your files, it's important to note that it does

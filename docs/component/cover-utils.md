@@ -13,7 +13,7 @@
 - `foobar2000` `2.24` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later
 
-[Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button }
+[Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button .md-button--primary }
 
 ## Usage
 Use the right click menu on any playlist/library selection and you'll find

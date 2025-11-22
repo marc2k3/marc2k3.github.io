@@ -10,7 +10,7 @@
 - `foobar2000` `2.24` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later
 
-[Download :material-download:](../files/foo_playcount_2003-0.3.0.fb2k-component){ .md-button }
+[Download :material-download:](../files/foo_playcount_2003-0.3.0.fb2k-component){ .md-button .md-button--primary }
 
 ## Overview
 This component uses the same database backend that `foo_playcount` utilises
