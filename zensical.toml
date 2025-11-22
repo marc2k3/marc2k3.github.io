@@ -10,10 +10,10 @@ nav = [
 		{ "Cover Utils" = "component/cover-utils.md" },
 		{ "MusicBrainz64" = "component/musicbrainz64.md" },
 		{ "Playcount 2003" = "component/playcount-2003.md" },
-		{ "Playlist Fix" =  "component/playlist-fix.md" },
+		{ "Playlist Fix" = "component/playlist-fix.md" },
 		{ "Queue Viewer" = "component/queue-viewer.md" }
 	]},
-	{"Abandoned" = [
+	{ "Abandoned" = [
 		{ "Last.fm Playcount Sync" = "component/lastfm-playcount-sync.md" },
 		{ "Playcount 2003 (legacy)" = "component/playcount-2003-legacy.md" },
 		{ "Play Track" = "component/play-track.md" },
