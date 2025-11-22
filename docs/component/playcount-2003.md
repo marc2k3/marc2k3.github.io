@@ -11,6 +11,9 @@
 
 [Download :material-download:](../files/foo_playcount_2003-1.4.fb2k-component){ .md-button .md-button--primary }
 
+## Support
+https://hydrogenaud.io/index.php/topic,125466.0.html
+
 ## Overview
 This component uses the same database backend that `foo_playcount` utilises
 for logging plays but has many more advanced features and fewer limitations.

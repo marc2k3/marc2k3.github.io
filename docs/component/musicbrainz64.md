@@ -6,6 +6,9 @@
 
 [Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button .md-button--primary }
 
+## Support
+https://hydrogenaud.io/index.php/topic,123563.0.html
+
 ## Tag Mapping
 Before you consider using this to tag your files, it's important to note that it does
 not strictly adhere to the `Picard` tag mappings as documented [here](https://picard-docs.musicbrainz.org/en/appendices/tag_mapping.html).

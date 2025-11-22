@@ -6,6 +6,9 @@
 
 [Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button .md-button--primary }
 
+## Support
+https://hydrogenaud.io/index.php/topic,123942.0.html
+
 ## Overview
 This provides full playback queue management as an embedded UI element for `Default UI`
 and `Columns UI`. There is also a standalone popup window available from the `View` menu.

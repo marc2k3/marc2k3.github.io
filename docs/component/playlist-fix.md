@@ -6,6 +6,9 @@
 
 [Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button .md-button--primary }
 
+## Support
+https://hydrogenaud.io/index.php/topic,123055.0.html
+
 ## Overview
 This aims to provide similar functionality to `foo_playlist_revive`. It uses
 title formatting to match dead playlist items against library items and updates

@@ -15,6 +15,9 @@
 
 [Download :material-download:](https://github.com/marc2k3/marc2k3/releases){ .md-button .md-button--primary }
 
+## Support
+https://hydrogenaud.io/index.php/topic,127694.0.html
+
 ## Usage
 Use the right click menu on any playlist/library selection and you'll find
 a `Cover Utils` sub menu.

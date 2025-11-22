@@ -1,4 +1,4 @@
-# Home
+# foobar2000 components
 
 |Active|||
 |:---|:---|:---|
