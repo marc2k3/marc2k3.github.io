@@ -3,7 +3,9 @@ site_name = "marc2k3"
 copyright = "Copyright &copy; 2025 marc2003"
 extra_css = ["stylesheets/extra.css"]
 nav = [
-	{ "foobar2000 components" = "index.md" },
+	{ "foobar2000 components" = [
+		"index.md"
+	]},
 	{ "Active" = [
 		{ "Cover Utils" = "component/cover-utils.md" },
 		{ "MusicBrainz64" = "component/musicbrainz64.md" },
@@ -25,7 +27,8 @@ palette.accent = "indigo"
 palette.primary = "indigo"
 features = [
 	"content.code.copy",
-	"navigation.expand"
+	"navigation.indexes",
+	"navigation.sections"
 ]
 
 [[project.extra.social]]
