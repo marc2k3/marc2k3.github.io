@@ -28,7 +28,8 @@ palette.primary = "indigo"
 features = [
 	"content.code.copy",
 	"navigation.indexes",
-	"navigation.sections"
+	"navigation.sections",
+	"navigation.top"
 ]
 
 [[project.extra.social]]
