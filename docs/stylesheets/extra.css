@@ -1,0 +1,16 @@
+.md-nav__link[for] { color: var(--md-default-fg-color) !important }
+.md-nav__title[for] { color: var(--md-default-fg-color) }
+.md-typeset .admonition { font-size: .75rem; }
+.md-header--shadow { background-color: RGB(240, 240, 240) }
+
+thead tr th:first-child, tbody tr td:first-child {
+	width: 18em;
+	min-width: 18em;
+	max-width: 18em;
+}
+
+thead tr th:last-child, tbody tr td:last-child {
+	width: 18em;
+	min-width: 18em;
+	max-width: 18em;
+}

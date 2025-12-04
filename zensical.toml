@@ -1,0 +1,37 @@
+[project]
+site_name = "marc2k3"
+copyright = "Copyright &copy; 2026 marc2003"
+extra_css = ["stylesheets/extra.css"]
+nav = [
+	{ "foobar2000 components" = [
+		"index.md"
+	]},
+	{ "Active" = [
+		{ "Cover Utils" = "component/cover-utils.md" },
+		{ "MusicBrainz64" = "component/musicbrainz64.md" },
+		{ "Playcount 2003" = "component/playcount-2003.md" },
+		{ "Playlist Fix" = "component/playlist-fix.md" },
+		{ "Queue Viewer" = "component/queue-viewer.md" }
+	]},
+	{ "Abandoned" = [
+		{ "Last.fm Playcount Sync" = "component/lastfm-playcount-sync.md" },
+		{ "Playcount 2003 (legacy)" = "component/playcount-2003-legacy.md" },
+		{ "Play Track" = "component/play-track.md" },
+		{ "QSearch" = "component/qsearch.md" },
+		{ "Run Main" = "component/run-main.md" }
+	]}
+]
+
+[project.theme]
+palette.accent = "indigo"
+palette.primary = "indigo"
+features = [
+	"content.code.copy",
+	"navigation.indexes",
+	"navigation.sections",
+	"navigation.top"
+]
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/marc2k3"
