@@ -1,6 +1,6 @@
 [project]
 site_name = "marc2k3"
-copyright = "Copyright &copy; 2025 marc2003"
+copyright = "Copyright &copy; 2026 marc2003"
 extra_css = ["stylesheets/extra.css"]
 nav = [
 	{ "foobar2000 components" = [
