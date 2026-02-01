@@ -1,10 +1,10 @@
 # Queue Viewer
 
 ## Requirements
-- `foobar2000` `2.24` or later. 32bit and 64bit are both supported.
+- `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later
 
-[Download :material-download:](../files/foo_queue_viewer-1.5.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](../files/foo_queue_viewer-1.6.fb2k-component){ .md-button .md-button--primary }
 
 ## Support
 https://hydrogenaud.io/index.php/topic,123942.0.html
@@ -50,6 +50,10 @@ The `Send` commands flush exisiting queue items first.
 	tracks.
 
 ## Changes
+
+### 1.6
+- Fix rare crash.
+- `foobar2000` `2.25` is the new minimum requirement.
 
 ### 1.5
 - Holding ++shift++ when choosing any `Queue Viewer` context menu item randomises
