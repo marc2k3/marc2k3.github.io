@@ -12,7 +12,7 @@ hide:
 |[MusicBrainz64](component/musicbrainz64.md)|2.9|4th July 2025|
 |[Playcount 2003](component/playcount-2003.md)|1.4|3rd August 2025|
 |[Playlist Fix](component/playlist-fix.md)|1.5|14th September 2025|
-|[Queue Viewer](component/queue-viewer.md)|1.5|16th August 2025|
+|[Queue Viewer](component/queue-viewer.md)|1.6|1st February 2026|
 
 |Abandoned|||
 |:---|:---|:---|
