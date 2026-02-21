@@ -10,10 +10,10 @@
 	format fields are used for display. See below.
 
 ## Requirements
-- `foobar2000` `2.24` or later. 32bit and 64bit are both supported.
+- `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later
 
-[Download :material-download:](../files/foo_cover_utils-1.3.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](../files/foo_cover_utils-1.4.fb2k-component){ .md-button .md-button--primary }
 
 ## Support
 https://hydrogenaud.io/index.php/topic,127694.0.html
@@ -96,6 +96,10 @@ title formatting is supported.
 This clears all existing info for the current selection.
 
 ## Changes
+
+### 1.4
+- foobar2000 2.25 is now required.
+- `Reload Info` is now automatically triggered after batch operations so filesize changes are seen immediately.
 
 ### 1.3
 - Update `WebP` encoder to latest version.
