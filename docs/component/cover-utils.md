@@ -98,7 +98,7 @@ This clears all existing info for the current selection.
 ## Changes
 
 ### 1.4
-- foobar2000 2.25 is now required.
+- `foobar2000` `2.25` is now required.
 - `Reload Info` is now automatically triggered after batch operations so filesize changes are seen immediately.
 
 ### 1.3
