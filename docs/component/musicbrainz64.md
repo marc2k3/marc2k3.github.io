@@ -1,7 +1,7 @@
 # MusicBrainz64
 
 ## Requirements
-- `foobar2000` `2.24` or later. 32bit and 64bit are both supported.
+- `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later
 
 [Download :material-download:](../files/foo_musicbrainz64-2.10.fb2k-component){ .md-button .md-button--primary }
