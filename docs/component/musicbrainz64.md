@@ -103,7 +103,7 @@ on format. See the changelog entry for [1.1.2](#112).
 - The mimimum requirement for `foobar2000` is now `2.25`.
 - Adds basic caching support to artist/album searches. If multiple releases are found and only a few succeed
 before failing, those succeeded releases are cached so they can be read instantly from disk on a retry instead
-being fetched again. The component will discard cache files that are over 6 hours old when `foobar2000` is closed.
+of being fetched again. The component will discard cache files that are over 6 hours old when `foobar2000` is closed.
 A folder named `MusicBrainz64-cache` will be created inside your `profile` folder.
 
 ### 2.9
