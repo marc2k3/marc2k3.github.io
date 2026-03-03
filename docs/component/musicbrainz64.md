@@ -4,7 +4,7 @@
 - `foobar2000` `2.24` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later
 
-[Download :material-download:](../files/foo_musicbrainz64-2.9.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](../files/foo_musicbrainz64-2.10.fb2k-component){ .md-button .md-button--primary }
 
 ## Support
 https://hydrogenaud.io/index.php/topic,123563.0.html
@@ -98,6 +98,13 @@ The main exception to the above is that `ARTISTSORT` and `ALBUMARTISTSORT` will 
 on format. See the changelog entry for [1.1.2](#112).
 
 ## Changes
+
+### 2.10
+- The mimimum requirement for `foobar2000` is now `2.25`.
+- Adds basic caching support to artist/album searches. If multiple releases are found and only a few succeed
+before failing, those succeeded releases are cached so they can be read instantly from disk on a retry instead
+being fetched again. The component will discard cache files that are over 6 hours old when `foobar2000` is closed.
+A folder named `MusicBrainz64-cache` will be created inside your `profile` folder.
 
 ### 2.9
 - Minor bug fixes.
