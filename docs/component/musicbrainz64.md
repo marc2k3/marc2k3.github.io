@@ -18,7 +18,7 @@ more important then you should probably avoid using this. More details of what t
 does and why can be found [below](#the-nerdy-stuff).
 
 ## Preferences
-These can be found under `File>Preferences>Tools>MusicBrainz`.
+These can be found under `File>Preferences>Tools>MusicBrainz64`.
 
 
 !!! note
@@ -180,7 +180,7 @@ so if you tagged the same tracks more than once, values would be appended instea
 - Minor bug fix.
 
 ### 1.2.0
-- All new options are enabled by default. Always check `File>Preferences>Tools>MusicBrainz`. Previous settings for existing users should be preserved.
+- All new options are enabled by default. Always check `File>Preferences>Tools>MusicBrainz64`. Previous settings for existing users should be preserved.
 - Support for writing `PERFORMER` and `COMPOSER` tags has been added. Note that these are not available when performing `Get tags by TOC` lookups.
 - When writing `PERFORMER` to `MP3`, multi-value `TXXX` frames are used. This is because `foobar2000` has never supported `TMCL` / `IPLS`.
 
