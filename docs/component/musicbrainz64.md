@@ -4,7 +4,7 @@
 - `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later
 
-[Download :material-download:](../files/foo_musicbrainz64-2.10.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](../files/foo_musicbrainz64-2.11.fb2k-component){ .md-button .md-button--primary }
 
 ## Support
 https://hydrogenaud.io/index.php/topic,123563.0.html
@@ -20,6 +20,9 @@ does and why can be found [below](#the-nerdy-stuff).
 ## Preferences
 These can be found under `File>Preferences>Tools>MusicBrainz`.
 
+
+!!! note
+	This updated dialog is in `2.11` and later.
 ![musicbrainz preferences](../images/musicbrainz-preferences.png)
 
 ## Usage
@@ -98,6 +101,9 @@ The main exception to the above is that `ARTISTSORT` and `ALBUMARTISTSORT` will 
 on format. See the changelog entry for [1.1.2](#112).
 
 ## Changes
+
+### 2.11
+- Rework preferences dialog and give a choice on how artist tags are written.
 
 ### 2.10
 - The mimimum requirement for `foobar2000` is now `2.25`.
