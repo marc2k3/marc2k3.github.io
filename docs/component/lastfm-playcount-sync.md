@@ -1,7 +1,10 @@
 # Last.fm Playcount Sync
 
-!!! note
-	No download provided as some whiney little fuckers think it's infected.
+## Requirements
+- `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
+- `Windows 10` or later
+
+[Download :material-download:](../files/foo_lastfm_playcount_sync-2.5.fb2k-component){ .md-button .md-button--primary }
 
 ## Overview
 This component fetches [Last.fm][] playcounts and first played/last played dates
@@ -104,6 +107,10 @@ updating playcounts, importing loved tracks or loving/unloving tracks
 are reported in the `Console`.
 
 ## Changes
+
+### 2.5
+- `foobar2000` `2.25` is now required.
+- Update third party dependencies and compile with Visual Studio 2026.
 
 ### 2.4
 - Minor bug fixes.
