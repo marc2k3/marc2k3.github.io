@@ -6,9 +6,6 @@
 
 [Download :material-download:](../files/foo_playlist_fix-1.5.fb2k-component){ .md-button .md-button--primary }
 
-## Support
-https://hydrogenaud.io/index.php/topic,123055.0.html
-
 ## Overview
 This aims to provide similar functionality to `foo_playlist_revive`. It uses
 title formatting to match dead playlist items against library items and updates

@@ -6,9 +6,6 @@
 
 [Download :material-download:](../files/foo_queue_viewer-1.6.fb2k-component){ .md-button .md-button--primary }
 
-## Support
-https://hydrogenaud.io/index.php/topic,123942.0.html
-
 ## Overview
 This provides full playback queue management as an embedded UI element for `Default UI`
 and `Columns UI`. There is also a standalone popup window available from the `View` menu.

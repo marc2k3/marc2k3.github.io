@@ -15,9 +15,6 @@
 
 [Download :material-download:](../files/foo_cover_utils-1.4.fb2k-component){ .md-button .md-button--primary }
 
-## Support
-https://hydrogenaud.io/index.php/topic,127694.0.html
-
 ## Usage
 Use the right click menu on any playlist/library selection and you'll find
 a `Cover Utils` sub menu.
