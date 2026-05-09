@@ -2,7 +2,7 @@
 
 ## Requirements
 - `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
-- `Windows 10` or later
+- `Windows 10` or later.
 
 [Download :material-download:](../files/foo_queue_viewer-1.6.fb2k-component){ .md-button .md-button--primary }
 

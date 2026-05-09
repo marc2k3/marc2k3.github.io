@@ -2,7 +2,7 @@
 
 ## Requirements
 - `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
-- `Windows 10` or later
+- `Windows 10` or later.
 
 [Download :material-download:](../files/foo_lastfm_playcount_sync-2.5.fb2k-component){ .md-button .md-button--primary }
 
