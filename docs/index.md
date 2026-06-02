@@ -8,7 +8,7 @@ hide:
 
 ||||
 |:---|:---|:---|
-|[Cover Utils](component/cover-utils.md)|1.4|21st February 2026|
+|[Cover Utils](component/cover-utils.md)|1.5|2nd June 2026|
 |[Last.fm Playcount Sync](component/lastfm-playcount-sync.md)|2.5|2nd May 2026|
 |[MusicBrainz64](component/musicbrainz64.md)|2.10|22nd March 2026|
 |[Playcount 2003](component/playcount-2003.md)|1.4|3rd August 2025|

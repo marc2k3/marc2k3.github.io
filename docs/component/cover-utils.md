@@ -94,6 +94,10 @@ This clears all existing info for the current selection.
 
 ## Changes
 
+### 1.5
+- When `converting`/`resizing` existing images, you can now select
+`All` as an option instead of a singular type.
+
 ### 1.4
 - `foobar2000` `2.25` is now required.
 - `Reload Info` is now automatically triggered after batch operations so filesize changes are seen immediately.
