@@ -94,6 +94,20 @@ This clears all existing info for the current selection.
 
 ## Changes
 
+### 1.6
+
+- This introduces `Cover Utils` as a post converter action. On the converter setup dialog
+under `Other`, you must ensure `Transfer attached pictures` is selected and then
+you can choose to convert/resize front cover images when conversion is complete.
+
+![post action](../images/cover-utils-post-action.png)
+
+!!! note
+	This feature requires a recent `foobar2000` `2.26` preview version.
+
+	Options here are limited compared to the main configuration dialog and if you want full
+	control, continue to use the standard context menu.
+
 ### 1.5
 - When `converting`/`resizing` existing images, you can now select
 `All` as an option instead of a singular type.
