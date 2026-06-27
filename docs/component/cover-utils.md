@@ -13,7 +13,7 @@
 - `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later.
 
-[Download :material-download:](../files/foo_cover_utils-1.5.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](../files/foo_cover_utils-1.6.fb2k-component){ .md-button .md-button--primary }
 
 ## Usage
 Use the right click menu on any playlist/library selection and you'll find
