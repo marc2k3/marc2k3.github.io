@@ -4,7 +4,7 @@
 - `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later.
 
-[Download :material-download:](../files/foo_queue_viewer-1.6.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](../files/foo_queue_viewer-1.7.fb2k-component){ .md-button .md-button--primary }
 
 ## Overview
 This provides full playback queue management as an embedded UI element for `Default UI`
@@ -47,6 +47,11 @@ The `Send` commands flush exisiting queue items first.
 	tracks.
 
 ## Changes
+
+### 1.7
+- Update to latest `foobar2000` `SDK`.
+- In the `foobar2000` advanced preferences, `Display>Default User Interface>Flash element on activate from menu`
+is now respected when disabled.
 
 ### 1.6
 - Fix rare crash.
