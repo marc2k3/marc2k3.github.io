@@ -13,9 +13,13 @@
 - `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later.
 
-[Download :material-download:](../files/foo_cover_utils-1.6.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](../files/foo_cover_utils-1.7.fb2k-component){ .md-button .md-button--primary }
 
 ## Usage
+The 2 main ways to use this are from the [context menu](#context-menu) or
+the `foobar2000` [converter](#converter) setup dialog.
+
+### Context menu
 Use the right click menu on any playlist/library selection and you'll find
 a `Cover Utils` sub menu.
 
@@ -92,21 +96,29 @@ title formatting is supported.
 #### Clear cover info
 This clears all existing info for the current selection.
 
-## Changes
+### Converter
+!!! note
+	This feature requires a recent `foobar2000` `2.26` preview version and component
+	version `1.6` or later.
 
-### 1.6
-- Update to latest `foobar2000` `SDK`.
-- This introduces `Cover Utils` as a post converter action. On the converter setup dialog
-under `Other`, you must ensure `Transfer attached pictures` is selected and then
+On the `foobar2000` converter setup dialog under `Other`, you must ensure `Transfer attached pictures` is selected and then
 you can choose to convert/resize front cover images when conversion is complete.
 
 ![post action](../images/cover-utils-post-action.png)
 
 !!! note
-	This feature requires a recent `foobar2000` `2.26` preview version.
+	Because access to the main configuration is not available here, there are fewer
+	options to choose from and the quality is hardcoded to `95`. If these limitations
+	are too restrictive, continue to use the standard context menu.
 
-	Options here are limited compared to the main configuration dialog and if you want full
-	control, continue to use the standard context menu.
+## Changes
+
+### 1.7
+- Various `converter` dialog improvments.
+
+### 1.6
+- Update to latest `foobar2000` `SDK`.
+- Add [converter dialog](#converter) support.
 
 ### 1.5
 - When `converting`/`resizing` existing images, you can now select
