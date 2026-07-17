@@ -108,6 +108,9 @@ are reported in the `Console`.
 
 ## Changes
 
+### 2.6
+- Maybe fix potential crash during playback.
+
 ### 2.5
 - `foobar2000` `2.25` is now required.
 - Update third party dependencies and compile with Visual Studio 2026.
