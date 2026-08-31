@@ -13,11 +13,14 @@
 - `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later.
 
-[Download :material-download:](../files/foo_cover_utils-1.7.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](../files/foo_cover_utils-1.8.fb2k-component){ .md-button .md-button--primary }
 
 ## Usage
-The 2 main ways to use this are from the [context menu](#context-menu) or
-the `foobar2000` [converter](#converter) setup dialog.
+There are 2 ways to use this component. For all users, you can use the [context menu](#context-menu)
+on any playlist or library viewer selection.
+
+If you are running a new enough `foobar2000` `2.26` preview, you can use a `Post Convert` action from the
+`foobar2000` [converter](#converter) setup dialog.
 
 ### Context menu
 Use the right click menu on any playlist/library selection and you'll find
@@ -101,17 +104,33 @@ This clears all existing info for the current selection.
 	This feature requires a recent `foobar2000` `2.26` preview version and component
 	version `1.6` or later.
 
+	Component version `1.8` or later is required for `Presets` described below.
+
 On the `foobar2000` converter setup dialog under `Other`, you must ensure `Transfer attached pictures` is selected and then
-you can choose to convert/resize front cover images when conversion is complete.
+you can choose to convert/resize when conversion is complete.
 
 ![post action](../images/cover-utils-post-action.png)
 
+To make your own presets, you can head to the main `Preferences` page (`File>Preferences>Tools>Cover Utils`). After
+adding, they will appear in the drop down list for selection.
+
 !!! note
-	Because access to the main configuration is not available here, there are fewer
-	options to choose from and the quality is hardcoded to `95`. If these limitations
-	are too restrictive, continue to use the standard context menu.
+	All changes to entries in the list are saved instantly. There is no `undo`!
+
+Use the `Add new` button to create a new preset or double click an existing entry to edit.
+
+The `Preset Editor` dialog should be self explanatory. You can configure what happens to
+each and every image type independently.
+
+![preset-editor](../images/cover-utils-preset-editor.png)
 
 ## Changes
+
+### 1.8
+- This is a breaking change for `Post Converter` action users because previously saved settings will be lost.
+- Add `Preferences` page for creating your own `Post Converter` presets. See [here](#converter).
+- Change internal `Resize` method so images smaller than the specified target size are still processed/attached.
+- A global quality setting for `JPG/WebP` encoding now exists under `File>Preferences>Tools>Cover Utils`.
 
 ### 1.7
 - Various `converter` dialog improvments.
