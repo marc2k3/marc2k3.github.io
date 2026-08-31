@@ -36,10 +36,7 @@ Converts existing embedded art without resizing. You must choose
 
 #### Browse for file, resize and attach
 This option lets you browse for an image file and will then resize it
-before attaching it to the current selection. Images already smaller than
-the specified max size will not be processed. You should attach those
-via the native [foobar2000](https://www.foobar2000.org) options under the
-`Tagging` menu.
+before attaching it to the current selection.
 
 #### Browse for file, convert and attach
 Use the file picker and then choose to convert the file to `JPG` or `WebP`.
