@@ -4,7 +4,7 @@
 - `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later.
 
-[Download :material-download:](../files/foo_musicbrainz64-2.11.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](../files/foo_musicbrainz64-2.12.fb2k-component){ .md-button .md-button--primary }
 
 ## Tag Mapping
 Before you consider using this to tag your files, it's important to note that it does
@@ -98,6 +98,9 @@ The main exception to the above is that `ARTISTSORT` and `ALBUMARTISTSORT` will 
 on format. See the changelog entry for [1.1.2](#112).
 
 ## Changes
+
+### 2.12
+- Attempt to improve error reporting on web request failures.
 
 ### 2.11
 - Rework preferences dialog and give a choice on how artist tags are written.
