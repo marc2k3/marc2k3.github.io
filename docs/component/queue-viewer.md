@@ -10,8 +10,13 @@
 This provides full playback queue management as an embedded UI element for `Default UI`
 and `Columns UI`. There is also a standalone popup window available from the `View` menu.
 
-There is full drag/drop support from other playlist / library viewer selections. You
-can select single or multiple items to re-arrange or remove them entirely.
+There is full drag/drop support from other playlist / library viewer selections. External sources
+such as `Windows Explorer` or other applications are not supported. The combined total of
+dragged items and the existing queue item count must not exceed the `foobar2000` queue limit
+of 256 tracks. The mouse pointer will indicate whenever dropping new items is prohibited.
+
+You can select single or multiple items to re-arrange or remove them entirely using the ++del++ key
+or right click menu.
 
 Unlike the original `foo_queuecontents` component, there is no support for multiple columns
 but the `Item` column supports custom title formatting.
@@ -31,7 +36,8 @@ can be found below.
 [Columns UI](https://wiki.yuo.be/columns_ui:config:layout)
 
 In addition to the drag/drop capabilities mentioned above, you can also right click any
-playlist or library selection and use these new commands found under the `Queue Viewer` sub-menu:
+playlist or library selection and use these commands found under
+the `Queue Viewer` sub-menu:
 
 ```
 Send to playback queue
@@ -43,8 +49,8 @@ Add to front of playback queue and play
 The `Send` commands flush exisiting queue items first.
 
 !!! note
-	If menu items appear to be hidden, it's because the queue is limited to a maximum of 256
-	tracks.
+	If menu items appear to be hidden for a given selection, it's because of the aforementioned
+	queue total limit.
 
 ## Changes
 
