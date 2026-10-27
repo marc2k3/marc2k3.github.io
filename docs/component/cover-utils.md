@@ -10,17 +10,17 @@
 	format fields are used for display. See below.
 
 ## Requirements
-- `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
+- `foobar2000` `2.26.1` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later.
 
-[Download :material-download:](../files/foo_cover_utils-1.8.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](../files/foo_cover_utils-1.9.fb2k-component){ .md-button .md-button--primary }
 
 ## Usage
-There are 2 ways to use this component. For all users, you can use the [context menu](#context-menu)
-on any playlist or library viewer selection.
+There are 2 ways to use this component.
 
-If you are running a new enough `foobar2000` `2.26` preview, you can use a `Post Convert` action from the
-`foobar2000` [converter](#converter) setup dialog.
+First of all, you can use the [context menu](#context-menu) on any playlist or library viewer selection.
+
+There is also a `Post Convert` action from the `foobar2000` [converter](#converter) setup dialog.
 
 ### Context menu
 Use the right click menu on any playlist/library selection and you'll find
@@ -97,12 +97,6 @@ title formatting is supported.
 This clears all existing info for the current selection.
 
 ### Converter
-!!! note
-	This feature requires a recent `foobar2000` `2.26` preview version and component
-	version `1.6` or later.
-
-	Component version `1.8` or later is required for `Presets` described below.
-
 On the `foobar2000` converter setup dialog under `Other`, you must ensure `Transfer attached pictures` is selected and then
 you can choose to convert/resize when conversion is complete.
 
@@ -122,6 +116,10 @@ each and every image type independently.
 ![preset-editor](../images/cover-utils-preset-editor.png)
 
 ## Changes
+
+### 1.9
+- Bump minimum requirement to `foobar2000` `2.26.1`. This allows internal
+code and documenation to be simplified.
 
 ### 1.8
 - This is a breaking change for `Post Converter` action users because previously saved settings will be lost.
