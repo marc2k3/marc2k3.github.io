@@ -13,7 +13,7 @@
 - `foobar2000` `2.26.1` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later.
 
-[Download :material-download:](../files/foo_cover_utils-1.9.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](../files/foo_cover_utils-1.10.fb2k-component){ .md-button .md-button--primary }
 
 ## Usage
 There are 2 ways to use this component.
@@ -45,7 +45,7 @@ Use the file picker and then choose to convert the file to `JPG` or `WebP`.
 Since most people only want front covers, this is a handy method for
 removing all the other types.
 
-#### Scan for info
+#### Scan for Cover Info
 Because it's not possible to query files for embedded album art within
 [foobar2000](https://www.foobar2000.org), you can use this option
 to process a selection of files and store the results in a database.
@@ -116,6 +116,10 @@ each and every image type independently.
 ![preset-editor](../images/cover-utils-preset-editor.png)
 
 ## Changes
+
+### 1.10
+- Fix `Post Converter` bug where front cover info was not updated if the chosen
+action was `Do nothing`.
 
 ### 1.9
 - Bump minimum requirement to `foobar2000` `2.26.1`. This allows internal
