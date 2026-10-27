@@ -119,7 +119,7 @@ each and every image type independently.
 
 ### 1.9
 - Bump minimum requirement to `foobar2000` `2.26.1`. This allows internal
-code and documenation to be simplified.
+code and documentation to be simplified.
 
 ### 1.8
 - This is a breaking change for `Post Converter` action users because previously saved settings will be lost.
