@@ -6,10 +6,10 @@
 	Updating from older versions in `Simple` mode is fine and existing data will be preserved.
 
 ## Requirements
-- `foobar2000` `2.24` or later. 32bit and 64bit are both supported.
+- `foobar2000` `2.26.1` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later.
 
-[Download :material-download:](../files/foo_playcount_2003-1.4.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](../files/foo_playcount_2003-1.5.fb2k-component){ .md-button .md-button--primary }
 
 ## Overview
 This component uses the same database backend that `foo_playcount` utilises
@@ -172,6 +172,10 @@ fine. Exported files are always without `BOM`.
 Database records are remembered for 4 weeks when not monitored as part of the `Media Library` or any loaded playlist. This behaviour is the same as `foo_playcount`.
 
 ## Changes
+
+### 1.5
+- Bump minimum requirement to `foobar2000` `2.26.1`.
+- Compiled with latest `Visual Studio 2026` and `foobar2000` `SDK`.
 
 ### 1.4
 - Fix stupid bug introduced in `1.3`.
