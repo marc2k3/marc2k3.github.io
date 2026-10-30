@@ -1,10 +1,10 @@
 # Playlist Fix
 
 ## Requirements
-- `foobar2000` `2.24` or later. 32bit and 64bit are both supported.
+- `foobar2000` `2.26.1` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later.
 
-[Download :material-download:](../files/foo_playlist_fix-1.5.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](../files/foo_playlist_fix-1.6.fb2k-component){ .md-button .md-button--primary }
 
 ## Overview
 This aims to provide similar functionality to `foo_playlist_revive`. It uses
@@ -33,6 +33,10 @@ to block the UI if used on large libraries/playlists. There is no way around tha
 The report may look something like [this](../images/playlist-fix.png).
 
 ## Changes
+
+### 1.6
+- Bump minimum requirement to `foobar2000` `2.26.1`.
+- Compiled with latest `Visual Studio 2026` and `foobar2000` `SDK`.
 
 ### 1.5
 - Maybe fix long path issue.
