@@ -13,7 +13,7 @@
 - `foobar2000` `2.26.1` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later.
 
-[Download :material-download:](../files/foo_cover_utils-1.10.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](https://github.com/marc2k3/marc2k3.github.io/releases/latest/){ .md-button .md-button--primary }
 
 ## Usage
 There are 2 ways to use this component.

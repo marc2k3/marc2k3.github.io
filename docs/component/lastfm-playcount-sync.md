@@ -4,7 +4,7 @@
 - `foobar2000` `2.25` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later.
 
-[Download :material-download:](../files/foo_lastfm_playcount_sync-2.7.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](https://github.com/marc2k3/marc2k3.github.io/releases/latest/){ .md-button .md-button--primary }
 
 ## Overview
 This component fetches [Last.fm][] playcounts and first played/last played dates

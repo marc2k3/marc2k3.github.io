@@ -4,7 +4,7 @@
 - `foobar2000` `2.26.1` or later. 32bit and 64bit are both supported.
 - `Windows 10` or later.
 
-[Download :material-download:](../files/foo_playlist_fix-1.6.fb2k-component){ .md-button .md-button--primary }
+[Download :material-download:](https://github.com/marc2k3/marc2k3.github.io/releases/latest/){ .md-button .md-button--primary }
 
 ## Overview
 This aims to provide similar functionality to `foo_playlist_revive`. It uses
